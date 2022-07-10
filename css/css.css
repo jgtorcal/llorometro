@@ -1,0 +1,13 @@
+#num {
+    font-size: 50px;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 70px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
