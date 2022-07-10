@@ -1,4 +1,6 @@
-Aplicación de prueba para medir el nivel de ruido en una habitación.
+Aplicación de prueba para medir en Raspberry Pi el nivel de ruido en una habitación.
+
+Se necesita una Raspberry pi y una webcam compatible.
 
 Idea:
 
