@@ -3,10 +3,11 @@ window.onload = function () {
 
     var dps = []; // dataPoints
     var chart = new CanvasJS.Chart("chartContainer", {
+        backgroundColor: null,
         theme: "light2",
-        title :{
-            text: "Llorómetro"
-        },
+        // title :{
+        //     text: "Llorómetro"
+        // },
         data: [{
             type: "line",
             dataPoints: dps

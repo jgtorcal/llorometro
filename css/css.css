@@ -1,8 +1,12 @@
-#num {
-    font-size: 50px;
+body {
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
+}
+
+#num {
+    font-size: 50px;
+    
     text-align: center;
     color: rgb(24, 24, 24);
     font-family: 'Courier New', Courier, monospace;
