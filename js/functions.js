@@ -22,20 +22,35 @@ function getLog() {
     })
 
     var element = document.getElementById("num");
-    yVal = parseInt(getValue());
+    valor = parseInt(getValue());
 
     switch (true){
-        case yVal < 15:
-            element.style.backgroundColor = "#63E6BE";
+        case valor < 15:
+            element.style.backgroundColor = "#FFFFFF";
             break;
-        case yVal > 15:
-            element.style.backgroundColor = "#F9B02B";
+        case valor > 30 && valor < 49:
+            element.style.backgroundColor = "#0CAD4D";
             break;
-        case yVal > 25:
-            element.style.backgroundColor = "#FF6336";
+        case valor > 50 && valor < 69:
+            element.style.backgroundColor = "#A9C437";
+            break;
+        case valor > 70 && valor < 89:
+            element.style.backgroundColor = "#FCDE00";
+            break;
+        case valor > 90 && valor < 109:
+            element.style.backgroundColor = "#FDBE0F";
+            break;
+        case valor > 110 && valor < 129:
+            element.style.backgroundColor = "#FDAD19";
+            break;
+        case valor > 130 && valor < 149:
+            element.style.backgroundColor = "#F16820";
+            break;
+        case valor > 150:
+            element.style.backgroundColor = "#EC1A23";
             break;
         default:
-            element.style.backgroundColor = "#63E6BE";
+            element.style.backgroundColor = "#FFFFFF";
             break;
     }
 }
